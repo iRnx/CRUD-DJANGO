@@ -9,7 +9,7 @@ __pycache__/
 media/
 venv/
 .env
-db.sqlite3
+# db.sqlite3
 
 # Distribution / packaging
 .Python
