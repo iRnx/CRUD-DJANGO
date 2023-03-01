@@ -1,5 +1,7 @@
 # CRUD-DJANGO
 
+Para baixar a aplicação: `git clone https://github.com/iRnx/CRUD-DJANGO.git`
+
 Para rodar este projeto basta criar o ambiente virtual: `python3 -m venv venv`
 
 Ativar o ambiente virtual `source /venv/bin/activate`
