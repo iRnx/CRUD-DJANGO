@@ -1,0 +1,9 @@
+<p><strong>Name Post:</strong> {{ post.name_post }}</p>
+<p><strong>Category:</strong> {{ post.category }}</p>
+
+{% for tag in post.tags.all %}
+    <p><strong>Tags:</strong> {{ tag }}</p>
+{% endfor %}
+
+<a href="{% url 'editar_post' post.id %}"><button>Editar</button></a>
+<a href="{% url 'deletar_post' post.id %}"><button>Deletar</button></a>

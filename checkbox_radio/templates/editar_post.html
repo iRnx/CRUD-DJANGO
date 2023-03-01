@@ -1,0 +1,13 @@
+
+<form method="POST" action="{% url 'editar_post' post.id %}">
+
+    {% csrf_token %}
+
+<h1>Editar um Post</h1>
+
+{{ post_form }}
+
+<button type="submit">Enviar</button>
+
+
+</form>

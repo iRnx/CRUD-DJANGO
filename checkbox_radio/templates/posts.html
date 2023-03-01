@@ -1,0 +1,6 @@
+<a href="{% url 'cadastrar_formulario' %}"><button>Cadastrar Post</button></a>
+
+
+{% for post in posts %}
+    <p><a href="{% url 'post' post.id %}">{{ post }}</p></a>
+{% endfor %}
